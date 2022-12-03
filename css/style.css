@@ -1,0 +1,183 @@
+.darkMode {
+    background-color: #212121;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.jumbotron {
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+
+.sidenav-mobile {
+    opacity: 0.6;
+    font-weight: bold;
+    margin-top: 56px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    width: 50%;
+    margin: auto;
+
+}
+
+.hobbies-text .container {
+    font-family: "Segoe UI Bold", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.profile {
+    box-shadow: 4px 15px 4px rgba(61, 144, 238, 0.5);
+    width: 300px;
+}
+
+.button-about {
+    border-radius: 15px;
+}
+
+.kopet,
+.card-panel {
+    border-radius: 27px !important;
+}
+
+
+.text-about,
+p {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: "Segoe UI Bold", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#skill h5,
+#jumbotron h4 {
+    font-family: "Segoe UI Bold", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text-jumbotron {
+    font-family: "Segoe UI Bold", Arial, sans-serif;
+}
+
+ul.list-history li::before {
+    content: '';
+    background: #2F52E0;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    top: -290px;
+    left: 1px;
+    width: 15px;
+    height: 15px;
+}
+
+
+ul.list-history::before {
+    content: '';
+    background: #2F52E0;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 7px;
+    width: 3px;
+    height: 300px;
+}
+
+ul li h5 {
+    position: relative;
+    top: -330px;
+    padding-left: 25px;
+    font-family: "Segoe UI Bold", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text-history {
+    position: relative;
+    top: -330px;
+    padding-left: 25px;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+.history .card-panel {
+    height: 500px;
+}
+
+footer {
+    padding-top: 200px;
+}
+
+.btn-kirim {
+    width: 100%;
+    border-radius: 25px;
+    height: 40px;
+    box-shadow: 5px 5px 5px rgba(67, 109, 245, 0.6);
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+
+
+@media (max-width: 576px) .jumbotronImg {
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.history .card-panel {
+    height: 550px;
+}
+
+ul.list-history li::before {
+    content: '';
+    background: #2F52E0;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    top: -440px;
+    left: 1px;
+    width: 15px;
+    height: 15px;
+}
+
+
+ul.list-history::before {
+    content: '';
+    background: #2F52E0;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 7px;
+    width: 3px;
+    height: 450px;
+}
+
+ul li h5 {
+    position: relative;
+    top: -480px;
+    padding-left: 25px;
+    font-family: "Segoe UI Bold", Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text-history {
+    position: relative;
+    top: -480px;
+    padding-left: 25px;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+#darkMode {
+    margin-top: 5px;
+    height: 45px;
+}
